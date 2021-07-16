@@ -19,7 +19,7 @@ class Profile extends React.Component {
        // console.log(this.props.Person.Name);
 
         return (
-        <div style={{justifyContent:'center'}}>
+        <div >
             <h1 style={{color:"blue", fontWeight:'800',textDecoration:"underline"}}>I'm {Name}.</h1>
             <h2 style={{color:'lightblue' ,fontWeight:'500'}}>I {Bio}.</h2>
             <h3 style={{color:"turquoise", fontWeight:'250'}}>I'm {Profession}.</h3>
